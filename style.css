@@ -6,6 +6,7 @@
 .header {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     font-size: 24px;
     background-color: #1F2937;
 }
@@ -17,6 +18,7 @@
 .links {
     color: #E5E7EB;
     align-items: flex-end;
+    font-size: 18px;
 }
 
 ul {
@@ -25,4 +27,14 @@ ul {
     margin: 0;
     padding: 0;
     gap: 24px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    font-size: 18px;
+    height: 72px;
 }
