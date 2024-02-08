@@ -6,6 +6,17 @@
 .header {
     display: flex;
     justify-content: space-around;
+    font-size: 24px;
+    background-color: #1F2937;
+}
+
+.logo {
+    color: #F9FAF8;
+}
+
+.links {
+    color: #E5E7EB;
+    align-items: flex-end;
 }
 
 ul {
