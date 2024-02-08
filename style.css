@@ -37,11 +37,29 @@ ul {
 
 .one {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     background-color: #1F2937;
 }
 
 .three {
     background-color: #E5E7EB;
+}
+
+.main-text {
+    display: flex;
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.image {
+    display: flex;
 }
 
 .footer {
