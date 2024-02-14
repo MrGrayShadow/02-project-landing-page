@@ -8,11 +8,14 @@
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
+    padding-top: 20px;
 }
 
 .links {
     display: flex;
     font-size: 18px;
+    justify-content: flex-end;
+    padding-top: 20px;
 }
 
 ul {
@@ -32,21 +35,29 @@ a {
     display: flex;
     flex-wrap: wrap;
     background-color: #1F2937;
-    padding: 0px 300px;
+    padding: 0px 200px;
+    padding-bottom: 80px;
+    justify-content: center;
 }
 
 .item {
     flex: 1 0 50%; /* The 50% of the items are on each line */
 }
+
 .main-text {
     font-size: 48px;
     font-weight: extra-bold;
     color: #F9FAF8;
+    padding-bottom: 4px;
+    padding-right: 200px;
 }
 
 .secondary-text {
     font-size: 18px;
     color: #E5E7EB;
+    padding-bottom: 8px;
+    text-wrap: wrap;
+    padding-right: 100px;
 }
 
 button {
@@ -56,20 +67,20 @@ button {
     color: #F9FAF8;
     padding: 8px 24px;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 20px;
 }
 
 img {
     display: flex;
     height: auto;
-    width: 350px;
+    width: 450px;
     color: white;
     background-color: gray;
 }
 
 .logo,
 .links {
-    padding-bottom: 20px;
+    padding-bottom: 80px;
 }
 
 
