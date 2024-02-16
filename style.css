@@ -117,10 +117,40 @@ img {
 }
 
 .three {
+    display: flex;
+    flex-wrap: wrap;
     background-color: #E5E7EB;
+    padding: 80px 200px;
 }
 
+blockquote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    margin: 0px;
+    padding: 0px;
+}
 
+cite {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+.quotee {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px;
+    padding: 0px;
+    flex: 1;
+}
 
 .footer {
     display: flex;
