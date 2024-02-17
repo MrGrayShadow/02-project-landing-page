@@ -1,6 +1,12 @@
+* { /* Global setting that allows all the elements to fill to edge of the browser. */
+    margin: 0;
+    padding: 0;
+}
+
 .body {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Pushes footer to the bottom of the page. */
+    flex: 1; /* Pushes and keeps the footer at the bottom of the page. */
 }
  
 .logo {
@@ -87,6 +93,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 30px 0px 80px 0px;
 }
 
 .box {
@@ -116,7 +123,7 @@ img {
     padding-bottom: 80px;
 }
 
-.three {
+.section.three {
     display: flex;
     flex-wrap: wrap;
     background-color: #E5E7EB;
@@ -144,12 +151,56 @@ p {
     margin: 0px;
     padding: 0px;
 }
+
 .quotee {
     display: flex;
     justify-content: flex-end;
     margin: 0px;
     padding: 0px;
-    flex: 1;
+    flex: 1; /* Pushes the quotee name to the right edge of the box. */
+}
+
+.section.four {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* For the rectangle element. */
+    padding: 80px 0px;
+}
+
+.rectangle {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* For the sign up button and the sentences. */
+    border-radius: 8px;
+    width: 800px;
+    padding: 40px;
+    background-color: #3882F6;
+    gap: 150px;
+}
+
+.right {
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 24px;
+}
+
+.line {
+    color:#F9FAF8;
+}
+
+.first { /* First sentence in the rectangle. */
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.second { /* Second sentence in the rectangle. */
+    font-size: 18px;
+}
+
+.button2 { /* Section four button */
+    font-size: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .footer {
